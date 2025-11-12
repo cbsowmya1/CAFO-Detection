@@ -35,21 +35,15 @@ Trains a **CNN (Convolutional Neural Network)** to classify aerial images into *
 
 **Outputs:**
 
-- ✅ `MobileNetV3.h5` classification model  
-- 📊 Accuracy metrics and confusion matrix  
-- 🖼️ Labeled test images  
-
-**Sample Output:**  
-<p align="center">
-  <img src="https://github.com/cbsowmya1/CAFO-Detection/blob/main/images/classification_output_sample.jpeg?raw=true" 
-       width="500" alt="MobileNetV3 Classification Output">
-</p>
+- ✅ `MobileNetV3.h5` classification model
+- 📊 Accuracy metrics and confusion matrix
+- 🖼️ Labeled test images
 
 ---
 
 ### 📗 YOLO.ipynb – YOLOv8 Object Detection
 
-Applies **YOLOv8** to detect and localize CAFOs in aerial images using **bounding boxes**.
+This notebook applies YOLOv8 to detect and localize CAFOs in aerial images using **bounding boxes**.
 
 **Steps Implemented:**
 
@@ -64,25 +58,19 @@ Applies **YOLOv8** to detect and localize CAFOs in aerial images using **boundin
 
 **Outputs:**
 
-- ✅ `best.pt` trained YOLOv8 model  
-- 📸 Prediction visuals with bounding boxes  
-- 📈 mAP, Precision, and Recall  
-
-**Sample Output:**  
-<p align="center">
-  <img src="https://github.com/cbsowmya1/CAFO-Detection/blob/main/images/yolo_output_sample.jpeg?raw=true" 
-       width="500" alt="YOLOv8 Detection Output">
-</p>
+- ✅ `best.pt` trained YOLOv8 model
+- 📸 Prediction visuals with bounding boxes
+- 📈 mAP, Precision, and Recall
 
 ---
 
 ## 📥 Dataset
 
-**📌 [CAFO Training Dataset (Stanford RegLab)](https://reglab.stanford.edu/data/cafo-training-dataset/)**  
+**📌 [CAFO Training Dataset (Stanford RegLab)](https://reglab.stanford.edu/data/cafo-training-dataset/)**
 
-- 🌎 Source: Aerial imagery of North Carolina  
-- 🖼️ Images: 21,768+ high-resolution tiles  
-- 🗂️ Labels: Classification CSV + bounding boxes  
+- 🌎 Source: Aerial imagery of North Carolina
+- 🖼️ Images: 21,768+ high-resolution images
+- 🗂️ Labels: Classification CSV + bounding boxes
 
 ---
 
@@ -104,15 +92,25 @@ Applies **YOLOv8** to detect and localize CAFOs in aerial images using **boundin
 
 ---
 
+## 🖼️ Sample Visuals
+
+**MobileNetV3 Classification Output:**  
+<img src="https://github.com/cbsowmya1/CAFO-Detection/blob/main/north-carolina_avery_187_287_6_1_0_17_-331_13881.jpeg" width="400" alt="MobileNetV3 Prediction">
+
+**YOLOv8 Detection Output:**  
+<img src="https://github.com/cbsowmya1/CAFO-Detection/blob/main/north-carolina_catawba_6427_287_6_1_0_17_-70_13765.jpeg" width="400" alt="YOLOv8 Detection">
+
+---
+
 ## 🙌 Acknowledgements
 
-- 🗂️ Dataset credit: [Stanford RegLab](https://reglab.stanford.edu)  
-- 📚 Developed as part of my **undergraduate research in Computer Vision and Deep Learning**, later enhanced with YOLOv8 experimentation and dataset scalability analysis.  
+- 🗂️ Dataset credit: [Stanford RegLab](https://reglab.stanford.edu)
+- 📚 Developed as part of my graduate research in Computer Vision & Deep Learning
 
 ---
 
 ## 👤 Author
 
 **Sowmya Chandana Botcha**  
-📧 Email: [cbsowmya1@gmail.com](mailto:cbsowmya1@gmail.com)  
-🔗 GitHub: [github.com/cbsowmya1](https://github.com/cbsowmya1)
+📧 Email: [cbsowmya1@gmail.com]
+
